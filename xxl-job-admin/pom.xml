@@ -85,6 +85,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>xxl-job-admin</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
