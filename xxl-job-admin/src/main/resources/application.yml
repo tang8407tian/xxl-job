@@ -6,7 +6,6 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    password: root
     tomcat:
       max-active: 30
       max-wait: 10000
@@ -14,8 +13,9 @@ spring:
       validation-interval: 30000
       validation-query: SELECT 1
     type: org.apache.tomcat.jdbc.pool.DataSource
-    url: jdbc:mysql://127.0.0.1:3306/xxl-job?Unicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://127.0.0.1:3306/xxl-job?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
     username: root
+    password: root
   freemarker:
     charset: UTF-8
     request-context-attribute: request
