@@ -13,7 +13,7 @@ spring:
       validation-interval: 30000
       validation-query: SELECT 1
     type: org.apache.tomcat.jdbc.pool.DataSource
-    url: jdbc:mysql://127.0.0.1:3306/xxl-job?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+    url: jdbc:mysql://47.75.86.28:3306/xxl-job?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
     username: root
     password: Admin123!
 #    username: root
